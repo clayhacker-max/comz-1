@@ -57,7 +57,7 @@ def main():
                 while True:
                     if cot >= cout:
                         nz = open(out).read()
-                        dn = compile(nz, '<Sazxt>', 'exec')
+                        dn = compile(nz, '<gaming>', 'exec')
                         bx = marshal.dumps(dn)
                         nl = repr(bx)
                         ns = open(out, 'w')
