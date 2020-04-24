@@ -48,7 +48,7 @@ def main():
             if cot < 400:
                 out = file.replace('.py', '') + '_enc.py'
                 oa = open(file).read()
-                ni = compile(oa, '<Sazxt>', 'exec')
+                ni = compile(oa, '<gaming>', 'exec')
                 bo = marshal.dumps(ni)
                 ab = repr(bo)
                 s = open(out, 'w')
@@ -57,7 +57,7 @@ def main():
                 while True:
                     if cot >= cout:
                         nz = open(out).read()
-                        dn = compile(nz, '<Sazxt>', 'exec')
+                        dn = compile(nz, '<gaming>', 'exec')
                         bx = marshal.dumps(dn)
                         nl = repr(bx)
                         ns = open(out, 'w')
